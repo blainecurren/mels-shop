@@ -1,4 +1,5 @@
 import styles from "../styles/ProductList.module.css";
+import ProductCard from "./ProductCard";
 
 const ProductList = () => {
   return (
@@ -10,7 +11,14 @@ const ProductList = () => {
         dolor sit amet, consecutor adipiscing elit
       </p>
       <div className={styles.wrapper}>
-          
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
       </div>
     </div>
   );
