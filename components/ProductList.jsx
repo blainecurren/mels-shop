@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard";
 
 const ProductList = () => {
   return (
-    <div className={styles.conatainer}>
+    <div className={styles.container}>
       <h1 className={styles.title}>Mel's got what you need</h1>
       <p className={styles.desc}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu
