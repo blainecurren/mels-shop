@@ -13,7 +13,9 @@
 
 .right {
   flex: 1;
+  padding: 20px;
 }
+
 .imgContainer {
   width: 80%;
   height: 80%;
@@ -24,13 +26,13 @@
   color: #d1411e;
   font-size: 24px;
   font-weight: 400;
-  border-bottom: 1px solid #b7903c;
+  border-bottom: 1px solid #d1411e;
 }
 
 .sizes {
-  justify-content: space-between;
-  display: flex;
   width: 40%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .size {
@@ -59,4 +61,22 @@
   font-size: 12px;
   padding: 0 5px;
   border-radius: 10px;
+}
+
+.ingredients {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
 }
