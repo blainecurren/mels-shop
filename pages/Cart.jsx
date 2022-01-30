@@ -16,6 +16,32 @@ const Cart = () => {
             <th>Quantity</th>
             <th>Total</th>
           </tr>
+          <tr>
+            <td>
+              <div className={styles.imgContainer}>
+                <Image
+                  src="/img/pizza.png"
+                  layout="fill"
+                  alt=""
+                  objectFit="cover"
+                />
+              </div>
+            </td>
+            <td>
+              <span className={styles.extras}>
+                Double Ingredients, spicy Sauce
+              </span>
+            </td>
+            <td>
+              <span className={styles.price}>$19.99</span>
+            </td>
+            <td>
+              <span className={styles.quantity}>2</span>
+            </td>
+            <td>
+              <span className={styles.total}>$39.80</span>
+            </td>
+          </tr>
         </table>
       </div>
       <div className={styles.right}></div>
