@@ -1,7 +1,7 @@
 .container {
   height: 100px;
   padding: 0px 50px;
-  background-color: #333333;
+  background-color: #d1411e;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,7 +58,6 @@
 .listItem {
   margin: 20px;
   font-weight: 500;
-  cursor: pointer;
 }
 
 .cart {
@@ -78,13 +77,14 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: #333333;
+  color: #d1411e;
 }
 
 @media screen and (max-width: 480px) {
   .item:nth-child(2) {
     display: none;
   }
+
   .item:nth-child(1) {
     flex: 3;
   }
