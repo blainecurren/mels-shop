@@ -19,12 +19,12 @@
   flex-wrap: wrap;
 }
 
-@media (min-width: 480px) {
-  .title{
+@media (max-width: 480px) {
+  .title {
     text-align: center;
   }
 
-  .desc{
+  .desc {
     width: 90%;
     text-align: center;
   }
